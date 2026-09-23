@@ -2,7 +2,7 @@ export const site = {
   name: "RA Interactive",
   shortName: "RA Interactive",
   domain: "rainteractive.com",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://rainteractive.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://rainteractive.com",
   tagline: "Websites & apps that get you more customers",
   description:
     "RA Interactive is a web development agency that builds fast, beautiful websites and web apps with genuinely live, interactive previews. We turn visitors into customers.",
